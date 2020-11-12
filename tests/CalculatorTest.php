@@ -1,6 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+include("./src/Calculator.php");
+
 final class CalculatorTest extends TestCase
 {
     public function testCanBeCreatedFromConstructor(): void{
